@@ -1,0 +1,116 @@
+.DropDown {
+    background-color: #1A191E;
+    height: 100vh;
+    font-size: 25px;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.DropDown .content {
+    padding-top: 7%;
+}
+
+.DropDown .shape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%
+}
+
+.DropDown .wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+
+.DropDown .text1 {
+    color: #8E8B9F;
+}
+
+.DropDown .text2 {
+    color: #F46B4D;
+}
+
+.DropDown .text3 {
+    color: #CEB267;
+}
+
+.DropDown .text4 {
+    color: #5BB28E;;
+}
+
+.DropDown .navIcon {
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.DropDown .circle {
+    width: 19px;
+    height: 19px;
+}
+
+.DropDown .invertedSphere {
+    width: 30px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.DropDown .curvedTriangle {
+    width: 19px;
+    height: 16px;
+}
+
+.DropDown .circleInSquare {
+    width: 19px;
+    height: 19px;
+    color: #5BB28E;;
+}
+
+.wrapper p {
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.DropDown .Elements {
+    margin: auto 0px;
+    overflow: hidden; 
+}
+
+@media (max-width: 400px) {
+    .DropDown {
+        height: 100vh;
+        font-size: 15px;
+    }
+    
+.DropDown .circle {
+    width: 8px;
+    height: 8px;
+}
+
+.DropDown .invertedSphere {
+    width: 15px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.DropDown .curvedTriangle {
+    width: 9.5px;
+    height: 8px;
+}
+
+.DropDown .circleInSquare {
+    width: 9.5px;
+    height: 9.5px;
+    color: #5BB28E;;
+}
+
+.DropDown .wrapper {
+    padding-left: 7%;
+}
+}

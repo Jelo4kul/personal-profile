@@ -1,0 +1,120 @@
+.MobileContact {
+    background-color: white;
+    color: white;
+}
+
+.Top {
+    background-color: #1A191E;
+    height: 249px;
+    padding: 0px 34px;
+    display: flex;
+    flex-flow: column;
+    padding: 20px 30px;
+}
+
+.Top > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.Top > div > span:nth-child(1) {
+    font-size: 8px;
+}
+
+.Top > div > span:nth-child(2) {
+    font-size: 10.5px;
+    color: #CEB267;
+}
+
+.Motivation1 {
+    font-size: 16px;
+}
+
+.Motivation2 {
+    font-size: 10px;
+    color: #D3D3CE;
+}
+
+.Bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bottom > div:nth-child(1){
+    margin-top: 20px;
+    background-color: white;
+    width: 80%;
+    box-shadow: 0px 3.94771px 19.7386px rgba(26, 25, 30, 0.1);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.Bottom > div:nth-child(1) > p{
+    color: #403E4A;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.Form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form input, button, textarea {
+    margin: 7.5px;
+    padding: 10px;
+    font-size: 10px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.Form textarea {
+    height: 50px;
+}
+.Form input::placeholder, textarea::placeholder {
+    color: #8E8B9F;
+}
+
+.Form button {
+    background-color: #CEB267;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 10.5px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.Bottom > div:nth-child(2){
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 44px;
+    width: 100%;
+}
+
+.Bottom .Divider {
+    width: 1px;
+    height: 25px;
+    background-color: #403E4A;
+}
+
+.Bottom .twitter {
+    width: 18px;
+    height: 14.87px;
+}
+
+.Bottom .linkedIn {
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,286 @@
+.SinglePortfolio {
+    position: relative; 
+    width: 100%;              
+}
+
+.SinglePortfolio .MainLayer {
+    display: flex;
+    flex-flow: column wrap; 
+    justify-content: space-between;
+    background-color: white;
+}
+
+.SinglePortfolio .Header {
+    background-color: #F5F5F5;
+    display: flex;
+    height: 95vh; 
+    width: 100%;
+}
+
+.SinglePortfolio .LeftSection {
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ position: relative;
+ background-color: #F46B4D;
+ height: 100%;
+ width: 50%;
+ }
+     
+ .InnerLeftSection {
+    display: flex;
+    position: relative; 
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    background-color: #F5F5F5;
+    height: 100%;
+    width: 100%;
+ }
+
+ .InnerLeftSection .WebsiteVisit {
+     position: absolute;
+     bottom: -40px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 287px;
+     height: 83px;
+     background-color: white;
+     color: #F46B4D;
+     font-weight: 600;
+ }
+
+ .WebsiteVisit p, .Circle {
+     cursor: pointer;
+ }
+
+ .WebsiteVisit .Circle{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #F46B4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+ }
+
+ .Circle img {
+     width: 19px;
+     height: 9px;
+ }
+
+ .MetaDataMask {
+    overflow: hidden;
+    margin-bottom: 17%;
+    margin-left: 10%;
+ }
+
+ .MetaData {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+ }
+
+ .MetaProps, .MetaValues {
+    display: flex;
+    margin-bottom: 6px;
+ }
+
+ .MetaProps > span {
+     width: 170px;
+     font-weight: bold;
+     font-size: 17px;
+ }
+
+ .MetaValues > span {
+    width: 170px;
+    display: flex;
+    font-size: 13px;
+}
+
+.RightSection {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 50%;
+}
+
+.RightSection .ProjectName {
+    padding: 0px;
+    margin: 0px;
+    font-size: 80px;
+    color: #F46B4D;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.RightSection .ProjectDescription {
+    font-size: 14px;
+    width: 80%;
+    line-height: 2;
+    text-align: justify;
+    color: #676574;
+}
+
+.RightSection .TechStack {
+    margin-top: auto;
+    display: flex;
+    background-color: white;
+    height: 121px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.TechStack span:nth-child(1) {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.TechStack span:nth-child(2) {
+    width: 2px;
+    background-color: #F46B4D;
+    height: 40px;
+}
+
+.TechStack span:nth-child(6) {
+    cursor: pointer;
+}
+
+.LayoutBody {
+    margin-top: 15%;
+    color: #403E4A;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.CaptivatingText {
+    font-size: 33px;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.CaptivatingText span {
+    color: #F46B4D;
+}
+
+.LayoutBody .BodyLeft {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 105px;
+}
+
+.BodyLeft .Image1 {
+    position: relative;
+    width: 289px;
+    height: 379px;
+    margin-bottom: 190px;
+}
+
+.Image1 div {
+    width: 165px;
+}
+
+.BodyLeft .Image2 {
+    position: relative;
+    width: 338px;
+    height: 408px;
+}
+
+.Image2 div {
+    width: 233px;
+}
+
+.LayoutBody .BodyRight {
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 90px;
+}
+
+.BodyRight .Image3 {
+    position: relative;
+    width: 401px;
+    height: 379px;
+    margin-bottom: 190px;
+}
+
+.Image3 div {
+    width: 246px;
+}
+
+.BodyRight .Image4 {
+    position: relative;
+    width: 325px;
+    height: 363px;
+}
+
+.Image4 div {
+    width: 233px;
+}
+
+.Image1 div, .Image2 div, .Image3 div, .Image4 div { 
+    position: absolute;
+    bottom: 0;
+    left: 0;  
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LayoutBody img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.LayoutBottomMask {
+    overflow: hidden;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.LayoutBottom {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.LayoutBottom span {
+    margin: 0px 20px;
+}
+
+.LayoutBottom span:nth-child(1) {
+    color: #8E8B9F;
+    font-size: 16px;
+}
+
+.LayoutBottom span:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.LayoutBottom span:nth-child(3) img {
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.MaskPName {
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.MaskPDesc {
+    overflow: hidden;
+}

@@ -1,0 +1,206 @@
+.Portfolios {
+    height: 100vh;
+    display: flex;
+    background-color: white;
+}
+
+.LeftSection {
+    width: 40%;
+    padding: 0px;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.LeftSection .TopContent {
+    display: flex;
+    flex-direction: column;
+    color: #B7503A;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    padding-top: 5%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.TopContent img {
+    width: 50px;
+    height: 7.3px;
+    margin-left: -5px;
+}
+
+.ProjectName {
+    color: #403E4A;
+    font-size: 60px;
+    margin: 0px auto;
+    width: 75%;
+   
+}
+
+.ProjectDesc {
+    font-size: 14px;
+    color: #676574;
+    text-align: justify;
+    margin: 0px auto;
+    width: 75%;
+}
+
+.LeftSection .BottomContent {
+    margin: auto 0px;
+    overflow: hidden;    
+}
+
+
+.RightSection {
+    width: 60%;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    padding: 0px 70px;
+    justify-content: space-around;
+}
+
+.RightSection .DynamicNavigator {
+    margin-top: 10%;  
+    width: 75%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: linear-gradient(90deg, rgba(225,222,241,1) 0%, rgba(255,255,255,1) 38%, rgba(255,255,255,1) 62%, rgba(225,222,241,1) 100%);
+            
+}
+
+.RightSection .Slider {
+    
+    height: 3px;
+}
+
+.RightSection .Counter {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+}
+
+.RightSection .Counter div:nth-child(1),  .Counter div:nth-child(2){
+    color: #B7503A;
+    margin: 0px 2px;
+    font-size: 30px;
+}
+
+.RightSection img {
+    margin-left: 0;
+    width: 600px;
+}
+
+.RightSection .MetaData {
+    display: flex;
+    flex-direction: column;
+}
+
+.MetaData div {
+    display: flex;
+    margin-bottom: 2px;
+    color: #403E4A;
+}
+
+.MetaData .MetaProp span{
+    font-size: 17px;
+    font-weight: bold;
+    width: 140px;
+}
+
+.MetaValues {
+    overflow: hidden;
+}
+
+.MetaValues div span{
+    color: #403E4A;
+    font-size: 13px;
+    width: 140px;
+}
+
+.RightSection .Button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    border: 1px solid #CEB267;
+    background-color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+.OuterButtonMask {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.InnerButtonMask {
+    overflow: hidden;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+}
+
+.ButtonText {
+    font-size: 13px;
+    font-weight: bold; 
+    position: absolute; 
+    top: 12.5%;
+    left: 25%;
+}
+
+@media (max-width: 1104px) {
+
+    .LeftSection .TopContent {
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ProjectName {
+        font-size: 40px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    
+    .ProjectDesc {
+        font-size: 13px;
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    .RightSection img {
+        margin-left: 0;
+        width: 500px;
+    }
+}
+
+@media (max-width: 920px) {
+    .LeftSection .TopContent {
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ProjectName {
+        font-size: 30px;
+        margin-bottom: 20px;
+        width: 90%;    
+    }
+    
+    .ProjectDesc {
+        font-size: 12px;
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    .RightSection img {
+        margin-left: 0;
+        width: 400px;
+    }
+}

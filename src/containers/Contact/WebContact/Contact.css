@@ -1,0 +1,93 @@
+.Contact {
+    background-color: #1A191E;
+    height: 100vh;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 2;
+}
+
+.Contact .Top {
+    height: 75vh;
+    padding-left: 8%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.Top .title {
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.Top img {
+    width: 50px;
+    height: 7.3px;
+    margin-left: -5px;
+}
+
+.Top .Email {
+    font-family: 'ABeeZee', sans-serif;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.Top .Motivation1 {
+    color: rgb(224, 223, 221);
+}
+
+.Top .Motivation2 {
+   width: 30%;
+   font-size: 15px;
+   text-align: justify;
+   color: rgb(160, 160, 158);
+}
+
+.Top .yellow {
+    color: #CEB267;
+}
+
+.Top .whiteShade {
+    color: #D3D3CE;
+}
+
+.Top .bottomContent {
+    margin-top: auto;
+    overflow: hidden;
+}
+
+.bottomContent p:nth-child(1) {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.Contact .Bottom {
+    height: 25vh;
+    background-color: white;
+    padding-left: 8%;
+    
+}
+
+.Bottom div{
+    display: flex;
+    padding-top: 30px;
+}
+
+.Bottom .socialMedia {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.Contact .Mask1 {
+    overflow: hidden; 
+    margin-top: auto;
+}
+
+.Contact .Mask2 {
+    overflow: hidden;
+}

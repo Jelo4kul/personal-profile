@@ -1,0 +1,127 @@
+.Homepage {
+    background: #1A191E;
+    height: 100vh;
+    color: #CEB267;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ABeeZee', sans-serif;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.Homepage .text1 {
+    margin-top: 200px;
+    font-size: 70px;
+}
+
+.Homepage .text2 {
+    color: #95855C;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Homepage .profileName {
+    border: 1px solid #8E8B9F;;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: 23%;
+    left: -9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepage .profilePic {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.Homepage .shape1 {
+    position: absolute;
+    left: 8%;
+    top: 39%;
+    width: 63px;
+    height: 9px;
+}
+
+.Homepage .shape2 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 32%;
+    top: 10%;
+}
+
+.Homepage .shape3 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 48%;
+    top: 27%;
+}
+
+.Homepage .shape4 {
+    position: absolute;
+    width: 69px;
+    height: 30px;
+    left: 63%;
+    top: 10%;
+}
+
+.Homepage .shape5 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 15%;
+    top: 32%;
+}
+
+.Homepage .shape6 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 18%;
+    top: 44%;
+}
+
+.Homepage .shape7 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 38%;
+}
+
+.Homepage .shape8 {
+    position: absolute;
+    width: 106px;
+    height: 36px;
+    left: 9%;
+    bottom: 17%;
+}
+
+.Homepage .shape9 {
+    position: absolute;
+    width: 123px;
+    height: 21.13px;
+    right: 20%;
+    bottom: 20%;
+}
+
+
+.Homepage .shape10 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    transform: rotate(180deg);
+    left: 48%;
+    bottom: 0;
+}

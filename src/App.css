@@ -1,22 +1,72 @@
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .navBar {
+  border: 1px solid #8E8B9F;;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 3%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  cursor: pointer;
+  z-index: 4;
 }
 
-.App-link {
-  color: #09d3ac;
+.App .innerNavBar {
+  outline: none;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .navBarMask {
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 2.94%;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.App .navIcon {
+  width: 20px;
+  height: 15px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 400px) {
+  .App .navBar {
+    border: 1px solid #8E8B9F;;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 4;
+  }
+  
+  .App .navBarMask {
+    display: none;
+  }
+  .App .navIcon {
+    width: 15px;
+    height: 12px;
+  }
 }

@@ -1,0 +1,53 @@
+.ContactForm {
+    background-color: white;
+    box-shadow: 0px 10px 50px 0px rgba(26,25,30,0.25);
+    width: 450px;
+    height: 550px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    padding: 20px;
+}
+
+.ContactForm .header {
+    color: #403E4A;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ContactForm .Form {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0px 20px;
+    margin-top: 40px;
+}
+
+.ContactForm input, button, textarea {
+    margin: 15px;
+    padding: 15px;
+    font-size: 13px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.ContactForm input::placeholder, textarea::placeholder {
+    color: #8E8B9F;
+}
+
+.ContactForm .ProjectDescription  {
+    height: 150px;
+}
+
+.ContactForm button {
+    background-color: #CEB267;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'ABeeZee', sans-serif;
+}

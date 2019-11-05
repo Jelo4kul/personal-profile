@@ -1,0 +1,212 @@
+.MobilePortfolio {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+
+    color: #403E4A;
+}
+
+.ImageHolder {
+    position: relative;
+}
+
+.ImageHolder img {
+    object-fit: cover;
+    width: 100%;
+    height: 231px;
+}
+
+.Circle, .VisitWebsite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VisitWebsite {
+    background-color: white;
+    font-size: 10px;
+    font-weight: 600;
+    color: #F46B4D;
+    width: 144px;
+    height: 41px;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Circle {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #F46B4D;
+}
+
+.Circle img {
+    width: 7.63px;
+    height: 4.35px;
+}
+
+.MetaData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+
+.MetaProp {
+    display: flex;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 13px;
+    width: 100%;
+}
+
+.MetaProp span, .MetaValue span {
+   width: 50%;
+}
+
+.MetaProp span:nth-child(3), .MetaValue span:nth-child(3) {
+    width: 10%;
+ }
+
+.MetaValue {
+    display: flex;
+    font-size: 10px;
+    width: 100%;
+}
+
+.Divider {
+    width: 100%;
+    height: 1px;
+    background-color: #E7DFDF;
+    margin: 20px 0;
+    margin-bottom: 0px;
+}
+
+.ProjectName, .ProjectDescription {
+    padding: 0px 24px;
+}
+
+.ProjectName {
+    font-size: 30px;
+    color: #403E4A;
+    margin: 0;
+}
+
+.ProjectDescription {
+    font-size: 10px;
+    color: #676574;
+    text-align: justify;
+}
+
+.ProjectPreview {
+    display: flex;
+    padding: 24px 24px;
+    justify-content: space-between;
+}
+
+.ProjectPreview > div {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.ProjectPreview img {
+    width: 82px;
+    height: 73px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.ProjectPreview span {
+    font-size: 10px;
+    color: #403E4A;
+    font-weight: 600;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.Tools {
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.TechStack {
+    display: flex;
+    flex-direction: column;
+    font-size: 14.56px;
+    font-weight: 600;
+}
+
+.TechStack p {
+    margin: 0;
+    margin-bottom: 4px
+}
+.TechStack > span {
+    height: 3px;
+    width: 33px;
+    background-color: #F46B4D;
+    margin-bottom: 15px;
+}
+
+.TechStackContents {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 11px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.TechStackContents span{
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.LayoutBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.LayoutBottom span {
+    margin: 0px 10px;
+}
+
+.LayoutBottom span:nth-child(1) {
+    color: #8E8B9F;
+    font-size: 9.12px;
+}
+
+.LayoutBottom span:nth-child(2) {
+    font-size: 11.4px;
+    font-weight: bold;
+}
+
+.LayoutBottom span:nth-child(3) img {
+    width: 12px;
+    height: 12px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.SlideOutElement {
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #CEB267;
+    background-color: #1A191E;
+}
